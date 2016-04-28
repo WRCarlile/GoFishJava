@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Collections;
 
-class Deck {
+public class Deck {
   private static final String[] SUITS = {"Spades", "Clubs", "Hearts", "Diamonds"};
   private static final String[] VALUES = {
     "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"

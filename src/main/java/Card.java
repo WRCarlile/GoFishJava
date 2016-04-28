@@ -1,6 +1,6 @@
-class Card {
-  String mValue;
-  String mSuit;
+public class Card {
+  private String mValue;
+  private String mSuit;
 
   public Card(String suit, String value) {
     mSuit = suit;

@@ -1,1 +1,6 @@
-<h1> $results </h1>
+<div>
+  <h1> This is Your Hand </h1>
+  #foreach ($card in $hand)
+    <p> $card.name() </p>
+  #end
+</div>

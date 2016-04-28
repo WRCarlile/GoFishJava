@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
-class Player {
+public class Player {
 
-private ArrayList<Card> mHand = new ArrayList(); // Does this work when we remove '= new ArrayList()'?
+private ArrayList<Card> mHand = new ArrayList<Card>(); // Does this work when we remove '= new ArrayList()'?
 
 public ArrayList<Card> getHand() {
   return mHand;
