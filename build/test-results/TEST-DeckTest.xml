@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DeckTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-28T18:48:15" hostname="epicodus-49.local" time="0.002">
+  <properties/>
+  <testcase name="getCards_deckContains52UniqueCards_kingOfDiamonds" classname="DeckTest" time="0.0"/>
+  <testcase name="shuffle_deckChangesOrderWhenShuffled_String" classname="DeckTest" time="0.0"/>
+  <testcase name="getCards_dealFirstCardThenDealSecond_8_OfSpades" classname="DeckTest" time="0.0"/>
+  <testcase name="getCards_initializesWithCardsList_true" classname="DeckTest" time="0.001"/>
+  <testcase name="getCards_cardsAreInitalizedWithSuitsAndValues_AceOfSpades" classname="DeckTest" time="0.0"/>
+  <testcase name="getCards_handContainsOneCardInPostionIndex_4_OfSpades" classname="DeckTest" time="0.0"/>
+  <testcase name="deck_initializesCorrectly" classname="DeckTest" time="0.0"/>
+  <testcase name="getCards_initalizesWith52Cards_52" classname="DeckTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
