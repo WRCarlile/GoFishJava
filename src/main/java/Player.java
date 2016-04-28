@@ -12,4 +12,8 @@ public void addCard(Card card) {
   mHand.add(card);
 }
 
+public void removeCard(Card card) {
+  mHand.remove(card);
+}
+
 }
