@@ -1,8 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "Deck"
+archivesBaseName = "deck"
 version = '1.0'
+applicationName = "deck"
 mainClassName = "App"
 
 repositories {
@@ -16,3 +17,6 @@ testCompile group: 'junit', name: 'junit', version: '4.+'
 testCompile group: 'org.fluentlenium', name: 'fluentlenium-core', version: '0.10.3'
 testCompile group: 'org.fluentlenium', name: 'fluentlenium-assertj', version: '0.10.3'
 }
+
+defaultTasks = ['clean']
+task stage(dependsOn: ['clean', 'installApp'])
